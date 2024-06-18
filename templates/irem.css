@@ -1,0 +1,150 @@
+.body {
+  background: #fdf8ee;
+  height: fit-content;
+}
+
+.logo-box {
+  width: 80%;
+  height: auto;
+}
+.logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.navbar-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.navbar-section {
+  padding-top: 4rem;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: #000;
+}
+.navbar-item {
+  color: #1d1d1d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.navbar-item-giris {
+  border-radius: 218px;
+  background: #4d2c5e;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.navbar-item-giris a {
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.title-orange {
+  color: #ff7426;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 135%; /* 101.25px */
+}
+.title-black {
+  color: #040404;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 135%; /* 101.25px */
+  padding-top: 80px;
+}
+.text {
+  color: #8a8a8a;
+  font-size: 16px;
+  font-style: normal;
+  width: 450px;
+  font-weight: 500;
+  line-height: 171%; /* 47.88px */
+}
+.teacherimg {
+  width: 100%;
+}
+.footer-title {
+  color: #1d1d1d;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer-text {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-section {
+  padding: 4rem 0rem 4rem 0rem;
+}
+.upload-text {
+  color: #542d00;
+  font-size: 24px;
+  font-style: normal;
+  width: 450px;
+  font-weight: 500;
+  line-height: 171%;
+}
+
+.my-form-control {
+  display: flex;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #7c524e;
+  background-color: #ef905a;
+  min-height: 120px;
+  font-size: 1.25rem;
+  border-radius: 31px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ef905a;
+  border-radius: 31px;
+}
+.input-group input[type="file"] {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: rgb(255, 219, 189); /* Mor renk */
+  color: #542d00; /* Yazı rengi */
+  border: none; /* Kenarlık yok */
+  padding: 10px 15px; /* Düğme iç boşluğu */
+  border-radius: 12px; /* Kenar yuvarlaklığı */
+  cursor: pointer; /* Fare işareti */
+  margin-left: 1.25rem;
+}
+
+/* kado css  */
+
+.ozellikler-container {
+  background-color: #4D2C5E;
+}
+
+.back-color {
+  background-color: #4D2C5E;
+}
+.footer-container {
+  background-color: #FDF8EE;
+}
+
+.roboto-text {
+  font-family: "Roboto";
+}
